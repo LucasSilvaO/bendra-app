@@ -1,10 +1,12 @@
 import img1 from './imgs/torneira1.png'
 import img3 from './imgs/torneira3.png'
-import img4 from './imgs/torneira5_.png'
+import img4 from './imgs/torneira_5.png'
 import logo from './imgs/logo.png'
 import right from './imgs/right1.png'
 import left from './imgs/left.png'
 import searchIcon from './imgs/svgs/searchIcon.svg'
+import phoneIcon from './imgs/Phone_31105.png'
+import emailIcon from './imgs/new_mail_gmailmessage_7038.png'
 import './App.css';
 import { useState } from 'react';
 
@@ -51,8 +53,14 @@ function App() {
         <img src={searchIcon} alt='searchIcon'></img>
         </div>
         <div className='contact-div'>
+          <div>
+          <img src={phoneIcon} alt='phoneIcon'></img>
           <p>Telefone: (61) 3963-0335</p>
+          </div>
+          <div>
+          <img src={emailIcon} alt='phoneIcon'></img>
           <p>Email: faleconosco@bendra.com.br</p>
+          </div>
         </div>
       </header>
       <section>
@@ -71,7 +79,7 @@ function App() {
             </button>
           </div>
           <div className='quantity-container'>
-          <p>{`Quantidade: ${productQuant}`}</p>
+          <h3>{`Quantidade: ${productQuant}`}</h3>
           <button onClick={() => removeProductQuant()}>-</button>
           <button onClick={() => addProductQuant()}>+</button>
           </div>
