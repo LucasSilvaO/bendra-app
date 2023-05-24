@@ -1,10 +1,6 @@
-import img1 from './imgs/img1.jpg'
-import img7 from './imgs/img7.jpg'
-import img3 from './imgs/img3.JPG'
-import img4 from './imgs/img4.JPG'
-import img5 from './imgs/img5.JPG'
-import img6 from './imgs/img6.jpg'
-import img8 from './imgs/img8.jpg'
+import img1 from './imgs/torneira1.png'
+import img3 from './imgs/torneira3.png'
+import img4 from './imgs/torneira5_.png'
 import logo from './imgs/logo.png'
 import right from './imgs/right1.png'
 import left from './imgs/left.png'
@@ -16,10 +12,10 @@ function App() {
   const [firstIndex, setFirstIndex] = useState(0)
   const [productQuant, setProductQuant] = useState(0)
 
-  const arrayOfImages = [img1, img3, img4, img5, img6, img7, img8];
+  const arrayOfImages = [img1, img3, img4];
 
   const nextFunction = () => {
-    if(firstIndex > 5) {
+    if(firstIndex > 1) {
       return setFirstIndex(0)
     }
     const index = firstIndex + 1;
@@ -27,8 +23,8 @@ function App() {
   }
 
   const previousFunction = () => {
-    if(firstIndex < -1) {
-      return setFirstIndex(6)
+    if(firstIndex < 1) {
+      return setFirstIndex(2)
     }
     const index = firstIndex - 1;
     setFirstIndex(index)
@@ -52,7 +48,7 @@ function App() {
         </div>
         <div>
         <input placeholder='Pesquisar Produto'></input>
-        <img src={searchIcon} ></img>
+        <img src={searchIcon} alt='searchIcon'></img>
         </div>
         <div className='contact-div'>
           <p>Telefone: (61) 3963-0335</p>
@@ -61,7 +57,7 @@ function App() {
       </header>
       <section>
         <div className='product-description'>
-          <h2>Nome do Produto</h2>
+          <h1>Nome do Produto</h1>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
         <div className='product-images'>
@@ -79,7 +75,7 @@ function App() {
           <button onClick={() => removeProductQuant()}>-</button>
           <button onClick={() => addProductQuant()}>+</button>
           </div>
-          <p>Valor:  **,**</p>
+          <p className='valor-text'>Valor:  **,**</p>
         </div>
       </section>
       <footer className="App-header">

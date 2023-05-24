@@ -1,5 +1,9 @@
+body {
+  background-image: url('./imgs/background-bendra.jpeg');
+}
+
 .App {
-  background-color: #E6F3FF;
+  background-image: url('./imgs/background-bendra.jpeg');
 }
 
 section {
@@ -26,7 +30,8 @@ footer {
 .App-header {
   display: flex;
   justify-content: space-around;
-  background-color: rgba(124, 136, 238, 0.842);
+  color: white;
+  background-color: rgba(10, 21, 128, 0.842);
 }
 
 .App-header div{
@@ -59,9 +64,13 @@ footer {
   height: 20px;
 }
 
+.product-images {
+  color: white;
+}
+
 .product-images img {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 700px;
 }
 
 .product-images button {
@@ -71,11 +80,16 @@ footer {
 }
 
 .product-description {
+  color: white;
+  text-align: center;
   border-radius: 20px;
-  border: solid 1px black;
   padding: 50px 50px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.2);
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.9);
+}
+
+.product-description h1 {
+  font-size: 50px;
 }
 
 .product-images div {
@@ -90,4 +104,10 @@ footer {
 
 .product-images p {
   text-align: center;
+}
+
+.valor-text {
+  font-weight: bold;
+  font-size: 50px;
+
 }
