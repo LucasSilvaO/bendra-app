@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bendra-app/static/css/main.95ed7a6b.css",
-    "main.js": "/bendra-app/static/js/main.803790aa.js",
+    "main.js": "/bendra-app/static/js/main.c673bf00.js",
     "static/js/787.e87cf6ea.chunk.js": "/bendra-app/static/js/787.e87cf6ea.chunk.js",
     "static/media/20210622111043_IMG_2348-tratadada-.png": "/bendra-app/static/media/20210622111043_IMG_2348-tratadada-.34d1fe7a3746293082c1.png",
     "static/media/20211119_143422 tratada_.png": "/bendra-app/static/media/20211119_143422 tratada_.342d40be5d7d68f6b2d6.png",
@@ -17,11 +17,11 @@
     "static/media/searchIcon.svg": "/bendra-app/static/media/searchIcon.5260a689d01ab358c3bd71025e3ed94f.svg",
     "index.html": "/bendra-app/index.html",
     "main.95ed7a6b.css.map": "/bendra-app/static/css/main.95ed7a6b.css.map",
-    "main.803790aa.js.map": "/bendra-app/static/js/main.803790aa.js.map",
+    "main.c673bf00.js.map": "/bendra-app/static/js/main.c673bf00.js.map",
     "787.e87cf6ea.chunk.js.map": "/bendra-app/static/js/787.e87cf6ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.95ed7a6b.css",
-    "static/js/main.803790aa.js"
+    "static/js/main.c673bf00.js"
   ]
 }
